@@ -1,0 +1,267 @@
+.slider-container{
+
+    width: 800px;
+    /*width: 1000px;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    max-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    /*border: 2px solid rgba(255,255,255, .27);*/
+    /*border-radius: 70px;*/
+    padding-right: 50px;
+}
+
+.image-container{
+    padding-top: 70.4px;
+    width: 4560px;
+    /*width: 300%;*/
+    height: 100%;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slider-image{
+    max-width: 33.3%;
+    max-height: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-container{
+    top: 0px;
+    position: relative;
+    z-index: 2;
+    padding-left: 48%;
+    background: rgb(118,39,171);
+    background: linear-gradient(90deg, rgba(118,39,171,1) 0%, rgba(253,29,29,1) 50%, rgba(230,156,53,1) 100%);
+}
+
+.slider-button{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: #4b0082;
+}
+
+.slider-button:hover{
+    background-color: #00ffff;
+}
+
+#slider-image-1:target ~ .image-container{
+    top: 0px;
+}
+#slider-image-2:target ~ .image-container{
+    left: -1600px;
+}
+#slider-image-3:target ~ .image-container{
+    left: -3038px;
+}
+
+.paralax{
+    padding-top: 300px;
+    height: 600px;
+    position: relative;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    border-bottom: 4px solid #be3144;
+}
+
+
+.t_paralax-span{
+    box-sizing: border-box;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: deeppink;
+    display: block;
+    position: relative;
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 8px;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgba(94, 41, 170,.8);
+    width: 250px;
+    left: 42%;
+}
+
+#paralax-1{
+    background-image: url("https://images.alphacoders.com/219/thumb-1920-219991.jpg");
+}
+
+#paralax-2{
+    background-image: url("https://images.alphacoders.com/736/thumb-1920-736461.png");
+}
+#paralax-3{
+    background-image: url("https://i.pinimg.com/originals/f7/d6/ca/f7d6ca15740c178b89df9b85d39c143e.jpg");
+}
+
+#paralax-fire-force{
+    top: 70.4px;
+    background-image: url("https://i.pinimg.com/originals/63/8d/5f/638d5f56d2a641fa0cad667b333d5aef.jpg") ;
+    /*background-blend-mode: difference;*/
+}
+#paralax-fullmetal{
+    top: 70.4px;
+    background-image: url("https://almalondrina.com.br/wp-content/uploads/2016/10/10_10_16-Multivers-Fullmetal.jpg") ;
+    /*background-blend-mode: difference;*/
+}
+#paralax-witch{
+    top: 70.4px;
+    background-image: url("https://anfreak.com.br/wp-content/uploads/2016/12/little-witch-academia-anime-tv-series-coming-to-netflix_6uzk.jpg") ;
+    /*background-blend-mode: difference;*/
+}
+#paralax-clover{
+    top: 70.4px;
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/d/9f/black-clover-anime-manga-japonese-asian-asiatic-oriental.jpg") ;
+    /*background-blend-mode: difference;*/
+}
+
+#paralax-kiminonawa{
+    top: 70.4px;
+    background-image: url("https://vigilianerd.com.br/wp-content/uploads/2017/12/Your-Name-3.jpg") ;
+    /*background-blend-mode: difference;*/
+}
+
+#paralax-jujutsu{
+    top: 70.4px;
+    background-image: url("https://www.nawpic.com/media/2020/jujutsu-kaisen-nawpic-11.jpg") ;
+    /*background-blend-mode: difference;*/
+}
+
+#paralax-abyss{
+    top: 70.4px;
+    background-image: url("https://images2.alphacoders.com/856/thumb-1920-856712.jpg") ;
+    /*background-blend-mode: difference;*/
+}
+
+#paralax-sao{
+    top: 70.4px;
+    background-image: url("https://i.pinimg.com/originals/51/48/ca/5148ca60a3cd061d87fbdd69fc604c7f.jpg") ;
+    /*background-blend-mode: difference;*/
+}
+
+
+#corpo-fire{
+    /*background-color: #871111;*/
+    background: rgb(143,10,10);
+    background: linear-gradient(180deg, rgba(143,10,10,1) 50%, rgba(129,74,3,1) 100%);
+    height: 100%;
+}
+
+#corpo-fullmetal{
+    background: rgb(71,69,69);
+    background: linear-gradient(180deg, rgba(71,69,69,1) 50%, rgba(157,156,154,1) 100%);
+    height: 100%;
+}
+
+#corpo-witch{
+    background: rgb(0,153,232);
+    background: linear-gradient(180deg, rgba(0,153,232,1) 50%, rgba(236,73,224,1) 100%);
+    height: 100%;
+}
+
+#corpo-clover{
+    background: rgb(10,1,1);
+    background: linear-gradient(180deg, rgba(10,1,1,1) 50%, rgba(154,0,0,1) 100%);
+    height: 100%;
+}
+
+#corpo-kiminonawa{
+    background: rgb(129,0,148);
+    background: linear-gradient(180deg, rgba(129,0,148,1) 50%, rgba(255,0,0,1) 100%);
+    height: 100%;
+}
+
+#corpo-jujutsu{
+    background: rgb(16,27,84);
+    background: radial-gradient(circle, rgba(16,27,84,1) 0%, rgba(130,4,30,1) 100%);
+    height: 100%;
+}
+
+#corpo-abyss{
+    /*background: rgb(87,112,238);*/
+    background: linear-gradient(45deg, rgba(87,112,238,.5) 0%, rgba(53,187,31,.5) 100%);
+    height: 100%;
+}
+
+#corpo-sao{
+    background: rgb(217,0,255);
+    background: linear-gradient(45deg, rgba(217,0,255,1) 28%, rgba(0,220,255,1) 100%);
+    height: 100%;
+}
+
+.geral-manga{
+    padding-top: 60px;
+    width: 50%;
+    /*height: 70%;*/
+    float: left;
+    display: block;
+    margin: 20px;
+    /*padding-top: 50px;*/
+}
+
+.geral-manga img{
+    margin: black solid 4px;
+}
+
+.informacao{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 30px;
+    float: right;
+    display: inline;
+    background-color: #b47a49;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    box-shadow: 7px 7px 3px rgba(0,0,0,.4);
+}
+
+.imagem-manga{
+    width: 50%;
+    float: left;
+    display: block;
+    margin: 20px;
+    border: rgba(200,20,150,.7) solid 4px;
+    clip-path: polygon(10% 0, 89% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
+
+}
+
+.text{
+    display: inline;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #6d6d6d;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #38d596;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00c4ff;
+    transition: background;
+    transition-duration: 3s;
+
+}

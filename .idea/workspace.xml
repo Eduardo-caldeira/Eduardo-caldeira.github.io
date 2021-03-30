@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86a5a412-aba6-454f-bd5f-d460e0225dd9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qG1TdhBm6Y3Drl9TOaknRXuUSN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Aprendizado" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Aprendizado\imagens" />
+      <recent name="C:\xampp\htdocs\Aprendizado" />
+      <recent name="C:\xampp\htdocs\Aprendizado\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86a5a412-aba6-454f-bd5f-d460e0225dd9" name="Default Changelist" comment="" />
+      <created>1616691122000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616691122000</updated>
+      <workItem from="1616691126028" duration="668000" />
+      <workItem from="1616691842337" duration="10460000" />
+      <workItem from="1616762053785" duration="15113000" />
+      <workItem from="1616779712881" duration="9053000" />
+      <workItem from="1617037583970" duration="7589000" />
+      <workItem from="1617045312675" duration="3097000" />
+      <workItem from="1617108409909" duration="6929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1617038310230">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/1600.-182.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1617038310230" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1617038182812">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/1600.-182.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1617038182812" />
+    <state x="565" y="41" width="585" height="736" key="find.popup" timestamp="1617123816199">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="565" y="41" width="585" height="736" key="find.popup/1600.-182.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1617123816199" />
+  </component>
+</project>
